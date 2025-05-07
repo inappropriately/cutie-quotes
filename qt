@@ -1,0 +1,21 @@
+import random
+
+QUOTES = [
+    "💖 You are magic, don’t ever apologize for the fire in you!",
+    "🌸 Keep shining, beautiful. The world needs your light.",
+    "✨ You’re stronger than you think and more fabulous than you know.",
+    "💅 Stay classy, sassy, and a bit bad-assy.",
+    "🌷 Be your own kind of beautiful.",
+    "👑 You’re a queen — don’t forget to wear your invisible crown.",
+    "🌟 Dream big, sparkle more, shine bright.",
+    "🍓 Self-love is the best love."
+]
+
+def show_quote():
+    quote = random.choice(QUOTES)
+    print("\n💬 Your Cutie Quote of the Day 💬\n")
+    print(quote)
+    print("\n✨ Have a fabulous day! ✨\n")
+
+if __name__ == "__main__":
+    show_quote()
